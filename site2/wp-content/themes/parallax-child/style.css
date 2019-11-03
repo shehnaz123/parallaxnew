@@ -1,0 +1,77 @@
+/*
+Theme Name: ParallaxSome child
+Theme URI: https://accesspressthemes.com/wordpress-themes/parallaxsome
+Author: AccessPress Themes
+Author URI: https://accesspressthemes.com/
+Description: ParallaxSome is a beautiful free responsive one page WordPress theme with awesome parallax scrolling effect. It is a highly customizable and flexible WP template suitable for multipurpose websites like business, agency, blog, portfolio, eCommerce etc. It is a fully responsive theme  that fits perfectly on any device. ParallaxSome theme comes with various homepage sections each beautifully designed. Each of the home page sections in your single page site can be further customized with easy to use customization options. The theme is based on WordPress Live Customizer that allows you to customize the complete theme instantly. It is clean, simple, SEO friendly, flexible, multilingual, and feature-rich theme for modern websites. For demo http://demo.accesspressthemes.com/parallaxsome 
+Version: 1.3.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: parallax-child
+Template: parallaxSome
+Tags: one-column, threaded-comments, translation-ready, flexible-header, footer-widgets, right-sidebar, left-sidebar, custom-background, custom-colors, custom-logo, featured-images, theme-options, portfolio
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ParallaxSome is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v3 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+section#section-about {
+    padding-top: 20px;
+    background-color: indianred;
+}
+.section-content-wrapper p{
+    font-size: 20px;
+    
+}
+
+.ps-section-container {
+    color: white;
+}
+.team-image-container {
+    height: 160px !important;
+}
+#colophon .ps-top-footer .footer_column_three .clearfix {
+    padding-bottom: 0px !important;
+}
+.wpcf7
+{
+    background-color: #f7f7f7;
+    border: 2px solid #ffffff;
+    width: 700px;
+     padding: 20px 20px 20px 50px !important;
+    
+}
+.wpcf7 input[type="text"],
+ .wpcf7 input[type="email"],
+ .wpcf7 input[type="tel"],
+ textarea, date {
+     font-size: 16px;
+     border: none;
+     width: 95%;
+     padding: 2%;
+ }
+ .wpcf7 input[type="submit"] {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    background: #E2272E;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.wpcf7 input:hover[type="submit"] {
+    background: #494949;
+    transition: all 0.4s ease 0s;
+}
+.wpcf7 input:active[type="submit"] {
+    background: #000000;
+}
